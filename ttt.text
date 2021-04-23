@@ -1,0 +1,11 @@
+TTT
+	Some rules off the top of my head
+	
+	1. If opponent has 2 adjacent cells, we must place ours in the third
+	2. We can place ours if we find a neigbor for it
+	3. Two cells are adjacent if 
+		3.1 Horizontal: They are neighbors in the array and on the same line
+		3.2 Vertical: They are separated by 3 places and in the same column
+		3.3 Diagonal: One is number 4 and there is at least one more
+
+

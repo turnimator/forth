@@ -1,0 +1,115 @@
+version
+ author=2.6
+ required=2.6
+
+or
+ position=280,130
+ input_level=1,0,0
+ output_level=1
+ matrix=1,0,0,1
+ properties=inputs:3.0,tphl:0.0,tplh:0.0
+
+probe
+ position=370,250
+ input_level=0
+ output_level=
+ matrix=1,0,0,1
+ properties=name:Probe
+
+sw
+ position=130,260
+ input_level=
+ output_level=0
+ matrix=1,0,0,1
+ properties=initstate:0
+
+sw
+ position=130,200
+ input_level=
+ output_level=0
+ matrix=1,0,0,1
+ properties=initstate:0
+
+sw
+ position=130,140
+ input_level=
+ output_level=0
+ matrix=1,0,0,1
+ properties=initstate:0
+
+sw
+ position=130,80
+ input_level=
+ output_level=1
+ matrix=1,0,0,1
+ properties=initstate:0
+
+text
+ position=0,40
+ input_level=
+ output_level=
+ matrix=1,0,0,1
+ properties=text:Collision sensor 1
+
+text
+ position=0,100
+ input_level=
+ output_level=
+ matrix=1,0,0,1
+ properties=text:Collision sensor 2
+
+text
+ position=-10,160
+ input_level=
+ output_level=
+ matrix=1,0,0,1
+ properties=text:Collision sensor 3
+
+text
+ position=-10,220
+ input_level=
+ output_level=
+ matrix=1,0,0,1
+ properties=text:Collision sense enable (Active low)
+
+led
+ position=460,140
+ input_level=1
+ output_level=
+ matrix=1,0,0,1
+ properties=
+
+and
+ position=370,140
+ input_level=0,0
+ output_level=0
+ matrix=1,0,0,1
+ properties=inputs:2,tphl:0,tplh:0
+
+net
+ position=200,60,290,60
+
+net
+ position=290,60,290,100
+
+net
+ position=200,120,240,120
+
+net
+ position=240,120,240,110
+
+net
+ position=240,110,290,110
+
+net
+ position=200,180,290,180
+
+net
+ position=290,180,290,120
+
+net
+ position=200,240,380,240
+
+net
+ position=380,240,380,130
+
